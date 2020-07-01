@@ -70,6 +70,12 @@
 			<url>http://repo.mcstats.org/content/repositories/public</url>
 		</repository>
 	</repositories>
+    <distributionManagement>
+        <repository>
+            <id>foxelbox-repo</id>
+            <url>https://maven.pkg.github.com/foxelbox/packages</url>
+        </repository>
+    </distributionManagement>
 	<dependencies>
 		<dependency> <!-- Bukkit implementation -->
 			<groupId>org.bukkit</groupId>
